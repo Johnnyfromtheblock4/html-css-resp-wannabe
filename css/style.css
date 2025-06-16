@@ -143,9 +143,14 @@ img {
 
 @media all and (max-width: 480px) {
 
+    .site-header {
+        width: 100%;
+    }
+
     .row {
         display: block;
     }
+
     .container {
         width: 100%;
         padding: 0 15px;
@@ -156,13 +161,27 @@ img {
         padding: 0 15px;
     }
 
+    .steps {
+        margin-bottom: 0;
+    }
+
     .steps .col {
         width: 100%;
-        padding: 0 15px;
+        padding: 30px 15px;
+    }
+
+    .why-us {
+        margin-bottom: 0;
     }
 
     .why-us .col {
         width: 100%;
-        padding: 0 15px;
+        padding: 30px 15px;
     }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 80px;
+    }
+
 }
