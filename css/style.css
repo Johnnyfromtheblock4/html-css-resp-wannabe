@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -129,6 +130,27 @@ img {
  ************************************************/
 
 
- /* Tablet */
+/* Tablet */
 
- /* Smarthphone */
+@media all and (max-width: 768px) {
+    .site-header {
+        
+    }
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .lessons .col {
+        width: 50%;
+    }
+
+    .lessons .img {
+        width: 200px;
+    }
+
+
+
+}
+
+/* Smarthphone */
