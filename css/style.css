@@ -145,14 +145,13 @@ img {
 
     .lessons .col {
         width: 50%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .lessons .img {
         width: 200px;
     }
-
-
-
 }
 
 /* Smarthphone */
